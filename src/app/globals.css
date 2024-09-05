@@ -203,9 +203,9 @@ section {
 }
 
 .section__pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
+  display: fit;
+  height: 1000px;
+  width: 1000px;
   margin: auto 0;
 }
 
@@ -226,6 +226,12 @@ section {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
+
+#ExperienceHeader {
+  @apply flex flex-col;
+
+}
+
 
 .title {
   font-size: 3rem;
@@ -317,13 +323,31 @@ section {
 
 .about-containers,
 .about-details-container {
+  padding: 1px;
   display: flex;
 }
 
 .about-pic {
+  padding: 1rem;
+  position: center;
+  height: 50%;
+  width: 50%;
+  border-radius: 3rem;
+}
+.resmed-pic {
+  align-self: center;
+  padding: 1rem;
+  height: 100%;
+  width: 90%;
   border-radius: 2rem;
 }
-
+.panini-pic {
+  padding: 1rem;
+  position: center;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 2rem;
+}
 .arrow {
   position: absolute;
   right: -5rem;

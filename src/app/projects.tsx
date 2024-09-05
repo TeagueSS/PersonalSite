@@ -105,10 +105,6 @@ function Projects() {
       />
 
 
-
-
-
-
     </nav>
   );
 }

@@ -6,8 +6,17 @@ function Profile() {
   return (
     <div id="profile">
       <div className="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Teague Sangster profile picture" />
-      </div>
+      <img
+  src="/assets/TeaguePFP.png"
+  alt="Profile picture"
+  className="intro-pic"
+/>      </div>
+
+    <div>
+    
+
+    </div>
+
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
         <h1 className="title">Teague Sangster</h1>
@@ -43,7 +52,11 @@ function Profile() {
           />
         </div>
       </div>
+
+      
     </div>
+
+    
   );
 }
 

@@ -12,6 +12,7 @@ function Contact() {
   return (
 <nav id="desktop-contact">
 <p className="section__text__p1">Get in Touch</p>
+
       <h1 className="title">Contact Me</h1>
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
@@ -27,11 +28,11 @@ function Contact() {
           <p><a href="mailto:sangsterteague@yahoo.com">sangsterteague@yahoo.com</a></p>
         </div>
         <div className="contact-info-container">
-          <img
-            src="public/assets/linkedin.png"
-            alt="LinkedIn icon"
-            className="icon contact-icon"
-          />
+        <img
+  src="/assets/linkedin.png"
+  alt="LinkedIn icon"
+  className="icon contact-icon"
+/>
           <p><a href="www.linkedin.com/in/teague-sangster-9aa6b0262">LinkedIn</a></p>
         </div>
       </div>

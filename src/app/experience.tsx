@@ -11,11 +11,24 @@ function Experience() {
   // Initialize user state
   return (
 <nav id="experience">
+<div>
+    
+    </div>
   
+<div>
+<h1 className="text-4xl font-bold text-center text-gray-800 md:text-6xl">
+    My time at ResMed: </h1>
+<div className="section__pic-container">
+      <img
+  src="/assets/Teague-at-Resmed.jpeg"
+  alt="Profile picture"
+  className="resmed-pic"
+/>   
+</div>
+</div>
 
-
-<p className="section__text__p1">Explore My</p>
-      <h1 className="title">Experience</h1>
+<p className="section__text__p1"></p>
+      
       <div className="experience-details-container">
         <div className="about-containers">
           <div className="details-container">
@@ -62,7 +75,7 @@ function Experience() {
                 />
                 <div>
                   <h3>AWS</h3>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -131,7 +144,13 @@ function Experience() {
         onClick={() => (window.location.href ="location.href='./#projects'")}
       />
 
+
+
+
     </nav>
+
+
+
   );
 }
 

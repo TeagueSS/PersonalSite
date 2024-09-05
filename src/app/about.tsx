@@ -11,17 +11,11 @@ function About() {
   // Initialize user state
   return (
 <nav id="desktop-nav">
-   
-<p className="section__text__p1">Get To Know More</p>
-      <h1 className="title">About Me</h1>
+
+
+    
       <div className="section-container">
-        <div className="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            className="about-pic"
-          />
-        </div>
+       
         <div className="about-details-container">
           <div className="about-containers">
             <div className="details-container">
@@ -31,7 +25,7 @@ function About() {
                 className="icon"
               />
               <h3>Experience</h3>
-              <p>Summer 2023 <br />Software Test Engineer ResMed
+              <p>Summer 2023 <br />SoftwareTest Engineer ResMed
               </p>
 
             </div>
@@ -49,14 +43,21 @@ function About() {
 
             </div>
           </div>
+
+      
+
+
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+            As a dedicated Computer Science student at San Diego State University,
+             I am passionate about exploring and tackling innovative projects that 
+             challenge my skills and ignite my curiosity. With a solid foundation 
+             in programming and software development, I am eager to push the boundaries
+              of technology through hands-on experience and creative problem-solving.
+               My academic journey has equipped me with the technical expertise and
+                collaborative mindset needed to thrive in dynamic project environments.
+                 I am excited to contribute to impactful projects and leverage my skills
+                  to drive meaningful advancements in the field of computer science.
             </p>
           </div>
         </div>
