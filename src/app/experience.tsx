@@ -137,12 +137,7 @@ function Experience() {
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href ="location.href='./#projects'")}
-      />
+     
 
 
 
@@ -151,6 +146,14 @@ function Experience() {
 
 
 
+/*
+ <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        className="icon arrow"
+        onClick={() => (window.location.href ="location.href='./#projects'")}
+      />
+*/
   );
 }
 

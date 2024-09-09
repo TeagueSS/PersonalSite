@@ -14,7 +14,10 @@ function Projects() {
    
 
 <div>
+  <div className="projectsTab mx-auto">
 <p className="section__text__p1">Browse My Recent</p>
+      
+      
       <h1 className="title">Projects</h1>
       </div>
 
@@ -97,18 +100,20 @@ function Projects() {
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => window.open("location.href='./#contact'")}
-      />
-
-
+</div>
     </nav>
   );
 }
 
+/*
+<img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        className="icon arrow"
+        
+        onClick={() => window.open("/contact")}
+      />
+*/
 export default Projects;
 
 

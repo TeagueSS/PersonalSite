@@ -24,7 +24,7 @@ function Profile() {
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={() => window.open('./assets/resume-example.pdf')}
+            onClick={() => window.open('Teague Resume 2024.pdf')}
           >
           
 

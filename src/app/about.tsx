@@ -37,9 +37,9 @@ function About() {
               />
               <h3>Education</h3>
               <h2> Bachelors In Computer Science</h2>
-              <p>San Diego State University</p>
+              <p>San Diego State University 2026</p>
 
-              <h2>Associates In Computer Science</h2> <p>Mesa Community</p>
+              <h2>Associates In Computer Science</h2> <p>Mesa Community - Deans List</p>
 
             </div>
           </div>
@@ -54,28 +54,28 @@ function About() {
              challenge my skills and ignite my curiosity. With a solid foundation 
              in programming and software development, I am eager to push the boundaries
               of technology through hands-on experience and creative problem-solving.
-               My academic journey has equipped me with the technical expertise and
+               My academic journey is equipping me with the technical expertise and
                 collaborative mindset needed to thrive in dynamic project environments.
                  I am excited to contribute to impactful projects and leverage my skills
-                  to drive meaningful advancements in the field of computer science.
+                  to drive meaningful advancements in the field of Computer Science.
             </p>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = "location.href='./#experience'")}
-        
-      />
     
     
     
     </nav>
   );
 }
+/* <img
+src="./assets/arrow.png"
+alt="Arrow icon"
+className="icon arrow"
+onClick={() => (window.location.href = "location.href='./#experience'")}
 
+/>
+*/
 export default About;
 
 

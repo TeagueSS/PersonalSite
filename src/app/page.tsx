@@ -7,6 +7,7 @@ import Projects from "./projects";
 import Contact from "./contact";
 import ExperienceHeader from "./experienceHeader"; // Adjust path if necessary
 
+
 export default function Home() {
   return (
     <>
